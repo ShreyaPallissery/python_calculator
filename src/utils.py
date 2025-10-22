@@ -1,12 +1,15 @@
 def add(*args):
-    """Return the sum of all arguments"""
-    if not args:
-        return 0
-    result = 0
-    for num in args:
-        result += num
-    return result
-
+    """
+    Add unlimited number of parameters.
+    
+    Args:
+        *args: Variable number of numeric arguments
+        
+    Returns:
+        Sum of all arguments
+    """
+    print(f"Performing addition operation")  # Partner B adds this line
+    return sum(args)
 
 def subtract(*args):
     """Subtract all subsequent arguments from the first argument"""
