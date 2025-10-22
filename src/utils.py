@@ -8,8 +8,9 @@ def add(*args):
     Returns:
         Sum of all arguments
     """
-    print(f"Performing addition operation")  # Partner B adds this line
+    print(f"Performing addition operation with numbers: {args}")  # Combined both changes
     return sum(args)
+    
 
 def subtract(*args):
     """Subtract all subsequent arguments from the first argument"""
